@@ -1,0 +1,14 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta de dependencias de Node.js (puedes ajustar esto si es necesario)
+node_modules/
+
+# Archivo de registro de errores de Node.js
+npm-debug.log
+
+
+
+# Variables de entorno locales (no las subas a GitHub)
+.env
