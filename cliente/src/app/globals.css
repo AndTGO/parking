@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--rojo: #ba181b;
+	--azul: #00b4d8;
+	--azul-hover: #48cae4;
+	--rojo-hover: #e5383b;
+	--verde: #09a129;
+}
+
+.content{
+	font-family: Poppins;
+	max-width: 1200px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+}
+.card-to-do {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	padding: 25px;
+	border-radius: 20px;
+	width: 700px;
+}
+.counter-todos {
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5); /* Fondo oscurecido semi-transparente */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+  }
+  
+  .modal {
+	background-color: white;
+	padding: 25px;
+	width: 700px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	z-index: 1100; 
+	top: 50%;
+	left: 50%;
+	
+  }
+  
+  
+  .modal label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .modal input {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 15px;
+  }
+  
+  .modal button {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
