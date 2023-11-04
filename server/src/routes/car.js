@@ -5,7 +5,7 @@ const { postRegisterIn, putRegisterOut, getRegister, putRegisterReset } = requir
 
 const carRouter = Router();
 
-carRouter.get("/car", getCar); // Usar carRouter en lugar de Router
+carRouter.get("/car", getCar); 
 carRouter.post("/car",postCar);
 
 
